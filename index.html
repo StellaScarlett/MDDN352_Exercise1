@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Exercise 1</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="style.css" />
+		
+		<script src="script.js"></script>
+		<script src="jquery-3.3.1.min.js"></script>
+		<script src="jscript.js"></script>
+	</head>
+	<body>
+
+<!--Nav bar-->
+	<ul class="topnav">
+		<li><a href="#home">Home</a></li>
+		<li><a href="#about">About</a></li>
+		<li><a href="#contact">Contact</a></li>
+		<li><a href="#Code">Code</a></li>
+	</ul>
+	
+<!-- Header -->
+	<div class="header">
+		<h1>@Media breaks</h1>
+	</div>
+	
+	<div class="row">
+	  <div class="column">
+		<h2>Experiment</h2>
+		<p>
+		Use this file as a starting point to experiment with @media breaks and finding the page width using javascript and jquery. Make a page with your own test content and scripts. Write the html, ccc and javascript from scratch in a text editor so you understand it fully.
+		</p>
+	  </div>
+
+	  <div class="column">
+		<h2>Inspector</h2>
+		<p>
+		Use the inspector in Chromium or Firefox to try this page at different widths. The 'responsive' setting enables a draggale page width.
+		</p>
+	  </div>
+
+
+	  <div class="column">
+		<h2>@Media</h2>
+		<p>
+		The background colour, text colour and border colour change due to @media directive in style.css below 480px
+		</p>
+	  </div>
+
+	  <div class="column">
+		<h2>Nav</h2>
+		<p>
+		These inline elements in the nav change to block which reflows the nav also in the style.css
+		</p>
+	  </div>
+
+	  <div class="column">
+			<h2>Javascript</h2>
+			<p>
+			The script script.js sets up an event listener to dynamically update the text in the span on resize. This is giving the height of the document area.
+			Height = 613
+			Width = 1352
+			</p>
+		<div>Height = <span id="myHeight"></span></div>
+		<div>Width = <span id="myWidth"></span></div>
+	  </div>
+
+	  <div class="column">
+			<h2>JQuery</h2>
+			<p>
+			This jquery script jscript.jsgets the width and height on resize and dynamicallly updates the text in the span. This gives the height of the window.
+			Height = 656
+			Width = 1370
+			</p>
+		<div>Height = <span id="jHeight"></span></div>
+		<div>Width = <span id="jWidth"></span></div>
+	  </div>
+
+	</body>
+</html>
+			
